@@ -25,6 +25,7 @@ public class SampleController {
         Scanner in = new Scanner(System.in);
         boolean end = false;
 
+        
         // calcUserMoney method test
         int userMoney = 10000;
         int totalPrice = 0;
