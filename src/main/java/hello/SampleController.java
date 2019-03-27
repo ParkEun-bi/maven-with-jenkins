@@ -28,11 +28,12 @@ public class SampleController {
         // calcUserMoney method test
         int userMoney = 10000;
         int totalPrice = 0;
-//        int calcMoney = calcUserMoney(userMoney, totalPrice);
-//        System.out.println("userMoney: " + userMoney + ", totalPrice: " + totalPrice);
-//        System.out.println("after calculate");
-//        System.out.println("price: " + calcMoney);
-        int button;
+      	int calcMoney = calcUserMoney(userMoney, totalPrice);
+	System.out.println("userMoney: " + userMoney + ", totalPrice: " + totalPrice);
+	System.out.println("after calculate");
+	System.out.println("price: " + calcMoney);
+        
+	int button;
         System.out.println("사용자가 가지고 있는 액수 : " + userMoney);
 
         while (!end) {
